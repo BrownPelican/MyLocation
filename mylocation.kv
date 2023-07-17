@@ -1,0 +1,78 @@
+<MyGPS>:
+    cols: 2
+    background_color: (1, 1, 1, 1)
+    canvas.before:
+        Color:
+            rgba: self.background_color
+        Rectangle:
+            size: self.size
+            pos: self.pos
+
+    Label:
+        size_hint_x: 0.3
+        text: "Latitude:"
+        padding: dp(20), dp(20)
+        font_size: self.height * 0.1
+        color: 0, 0.62, 0.96
+
+    Label:
+        id: Latitude
+        text: "Lat"
+        padding: dp(20), dp(20)
+        text_size: self.size
+        halign: "left"
+        valign: "center"
+        font_size: self.height * 0.1
+        color: 0, 0.62, 0.96
+
+    Label:
+        size_hint_x: 0.3
+        text: "Longitude:"
+        padding: dp(20), dp(20)
+        font_size: self.height * 0.1
+        color: 0, 0.62, 0.96
+
+    Label:
+        id: Longitude
+        text_size: self.size
+        padding: dp(20), dp(20)
+        halign: "left"
+        valign: "center"
+        text: "Lon"
+        font_size: self.height * 0.1
+        color: 0, 0.62, 0.96
+
+    Label:
+        size_hint_x: 0.3
+        text: "Location:"
+        padding: dp(20), dp(20)
+        font_size: self.height * 0.1
+        color: 0, 0.62, 0.96
+
+    Label:
+        id: Location
+        text: "Loc"
+        padding: dp(20), dp(20)
+        text_size: self.size
+        halign: "left"
+        valign: "center"
+        font_size: self.height * 0.1
+        color: 0, 0.62, 0.96
+
+    Label:
+        size_hint_x: 0.3
+        text: "Accuracy:"
+        padding: dp(20), dp(20)
+        font_size: self.height * 0.1
+        color: 0, 0.62, 0.96
+
+    Label:
+        id: Accuracy
+        text: "Acc"
+        padding: dp(20), dp(20)
+        text_size: self.size
+        halign: "left"
+        valign: "center"
+        font_size: self.height * 0.1
+        color: 0, 0.62, 0.96
+
